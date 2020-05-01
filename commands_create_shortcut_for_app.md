@@ -1,5 +1,5 @@
 # CREATE SHORTCUT ICON 
-1.Open a text editor: copy and paste the following text into the editor:
+Open a text editor: copy and paste the following text into the editor:
 
     [Desktop Entry]
     Version=1.0
