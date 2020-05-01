@@ -16,4 +16,5 @@ My setup for java developing environment
   - [x] Slack
   - [x] Skype
   - [x] Zoom  
+  
 **Commands**
