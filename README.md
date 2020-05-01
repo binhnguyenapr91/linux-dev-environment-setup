@@ -115,17 +115,17 @@ If you want to remove Openjdk along with dependencies and it’s configuration f
 	$ sudo apt-get purge --auto-remove openjdk*
 	
 ### Setup MySql
-On the screen of CLI
+On the screen of CLI  
 	$ sudo apt-get install mysql-server mysql-common mysql-client
 	$ sudo mysql_secure_installation
 	$ sudo mysql -u root -p
-After enter screen mysql
+After enter screen mysql  
 	mysql> use mysql;
 	mysql> select user,host,plugin from mysql.user;
 	mysql> update user set plugin='mysql_native_password' where user='root';
 	mysql> flush privileges;
 	mysql> exit
-Come back to CLI
+Come back to CLI  
 	$ service mysql restart
 ### Setup ibus-bamboo
   	$ sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
