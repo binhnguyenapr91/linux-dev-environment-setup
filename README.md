@@ -1,5 +1,5 @@
 # linux-javadev-setup
-My setup for java developing environment
+My setup for java developing environment  
 **Todos**
   - [x] JDK
   - [x] VSCode
@@ -14,5 +14,5 @@ My setup for java developing environment
   - [x] Flameshot   
   - [x] Slack
   - [x] Skype
-  - [x] Zoom
+  - [x] Zoom  
   **Commands**
