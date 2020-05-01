@@ -3,19 +3,17 @@ My setup for java developing environment
 
 **Todos**
   - [x] JDK
-  - [x] VSCode
-    - [x] Plugin
-  - [x] Eclipse
+  - [x] MySQL
+    - [x] MySQL Server
+    - [x] MySQL Client
+    - [x] MySQL Common
+    - [x] MySQL Workbench 
   - [x] Git
-  - [x] MySQL Workbench
-  - [x] MySQL  
+  - [x] VSCode
+    - [x] Plugins
+    - [x] Themes
+  - [x] Eclipse
   - [x] Chrome
-  - [x] Xmind 8
-  - [x] IBus Bamboo
-  - [x] Flameshot   
-  - [x] Slack
-  - [x] Skype
-  - [x] Zoom  
   
 **Commands**
 ### Setup JDK 
@@ -133,12 +131,8 @@ Come back to CLI
 
 	$ service mysql restart
 	
-### Setup ibus-bamboo
-  	$ sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
-  	$ sudo apt-get update
-  	$ sudo apt-get install ibus-bamboo
-  	$ ibus restart
 ### Setup GIT
+
 	$ sudo add-apt-repository ppa:git-core/ppa
 	$ sudo apt update
 	$ sudo apt install git
