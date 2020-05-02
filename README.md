@@ -9,6 +9,7 @@ My setup for java developing environment
     - [x] MySQL Common
     - [x] MySQL Workbench 
   - [x] Git
+  - [x] SSH
   - [x] VSCode
     - [x] Plugins
     - [x] Themes
