@@ -49,3 +49,6 @@ Add your SSH private key to the ssh-agent. If you created your key with a differ
     $ ssh-add ~/.ssh/id_rsa  
     
 #### Add the SSH key to your GitHub account.
+#### Check connection
+    
+    $ ssh -T git@github.com
