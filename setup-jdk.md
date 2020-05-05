@@ -26,7 +26,7 @@ Check Java compiler version
 Output:
 	javac 1.8.0_221
 
-####Set default JDK
+#### Set default JDK
 
 Add JDK 8 to the alternatives system.
 
