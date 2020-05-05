@@ -8,6 +8,7 @@ My setup for java developing environment
     - [x] MySQL Client
     - [x] MySQL Common
     - [x] MySQL Workbench 
+  - [x] ApacheTomcat 9
   - [x] Git
   - [x] SSH
   - [x] VSCode
