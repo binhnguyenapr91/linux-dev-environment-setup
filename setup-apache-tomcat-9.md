@@ -13,9 +13,7 @@ After the download completes, decompress the file in your tomcat folder:
 
     $ tar xvzf apache-tomcat-9.0.34.tar.gz
     
-#### Step 3: Install Java JDK if not have JDK yet
-  
-    $ apt-get install default-jdk
+#### Step 3: Install Java Oracle JDK if not have JDK yet
     
 #### Step 4: Configure .bashrc File
 Set the environment variables in .bashrc with the following command:
@@ -24,7 +22,7 @@ Set the environment variables in .bashrc with the following command:
 
 Add this information to the end of the file:
 
-    export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+    export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_241/bin/java
     export CATALINA_HOME=~/tomcat9/apache-tomcat-9.0.34
 
 Save your edits and exit the .bashrc file, then run the following command to register the changes:
