@@ -8,6 +8,10 @@ Logged in as root
 Next from your server, use wget command to download the tar to  the tomcat folder from the URL you copied in the previous step:  
     
     $ wget http://mirrors.viethosting.com/apache/tomcat/tomcat-9/v9.0.34/bin/apache-tomcat-9.0.34.tar.gz
+    
+    or
+    
+    $ curl -O http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz
  
 After the download completes, decompress the file in your tomcat folder:
 
