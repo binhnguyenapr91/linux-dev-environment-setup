@@ -1,4 +1,4 @@
-# linux-javadev-setup
+### Linux Dev Environment Setup
 My setup for java developing environment  
 
 **Todos**
