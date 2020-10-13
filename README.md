@@ -14,10 +14,13 @@ My setup for java developing environment
   - [x] VSCode
     - [x] Plugins
     - [x] Themes
-  - [x] Eclipse
+  - [x] IntelliJ Idea Ultimate
   - [x] Chrome
   
 **Commands**
 
+#### Install .deb file: 
+	sudo dpkg -i file_name.deb
 	
-
+#### Extract .tar.gz file:
+	sudo tar xvzf file_name.tar.gz
