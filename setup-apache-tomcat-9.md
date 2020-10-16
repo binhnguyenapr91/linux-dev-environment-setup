@@ -26,7 +26,7 @@ Set the environment variables in .bashrc with the following command:
 
 Add this information to the end of the file:
 
-    export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_241/bin/java
+    export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_24
     export CATALINA_HOME=~/tomcat9/apache-tomcat-9.0.34
 
 Save your edits and exit the .bashrc file, then run the following command to register the changes:
