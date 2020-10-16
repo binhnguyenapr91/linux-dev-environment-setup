@@ -1,13 +1,20 @@
-1. Install prerequisite packages. 
-    sudo apt install git-core zsh
+### Install prerequisite packages. 
+    apt install zsh
+    
+### Check zsh version
+    zsh --version
+    
+### Change default shell to zsh
+    chsh -s $(which zsh)
+    
+### Check default shell
+    echo $SHELL
+    
+### Install Oh My Zsh. 
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-2. Install Oh My Zsh. 
-    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-4. Get the “Powerline” fonts required for a fancy theme. 
+### Get the “Powerline” fonts required for a fancy theme. 
     sudo apt install fonts-powerline  
 
-5. Set up a fancy theme. 
-    Open up ~/.zshrc and change ZSH_THEME variable:  
-
-    ZSH_THEME="agnoster"
+### Set up a fancy theme. 
+    Open up ~/.zshrc and change ZSH_THEME variable: ZSH_THEME="agnoster"
