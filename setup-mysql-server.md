@@ -12,3 +12,10 @@ Come back to CLI
 Login to MySqlServer
   	
 	$ mysql -u root
+### Remove MYSQL
+	sudo apt-get remove --purge mysql-[server|common|client]
+	sudo apt-get purge mysql-[server|common|client]
+	sudo apt-get autoremove
+	sudo apt-get autoclean
+	sudo apt-get remove dbconfig-mysql
+	sudo apt-get dist-upgrade
