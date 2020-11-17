@@ -1,8 +1,6 @@
 ### Setup GIT
 
-	$ sudo add-apt-repository ppa:git-core/ppa
-	$ sudo apt update
-	$ sudo apt install git
+	$ sudo apt install git-all
 
 Check git version
 
