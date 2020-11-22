@@ -7,15 +7,15 @@ Logged in as root
 #### Step 2: Install Tomcat
 Next from your server, use wget command to download the tar to  the tomcat folder from the URL you copied in the previous step:  
     
-    $ wget http://mirrors.viethosting.com/apache/tomcat/tomcat-9/v9.0.34/bin/apache-tomcat-9.0.34.tar.gz
+    $ wget http://mirrors.viethosting.com/apache/tomcat/tomcat-9/v9.0.34/bin/apache-tomcat-9.0.39.tar.gz
     
     or
     
-    $ curl -O http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30.tar.gz
+    $ curl -O http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.39.tar.gz
  
 After the download completes, decompress the file in your tomcat folder:
 
-    $ tar xvzf apache-tomcat-9.0.34.tar.gz
+    $ tar xvzf apache-tomcat-9.0.39.tar.gz
     
 #### Step 3: Install Java Oracle JDK if not have JDK yet
     
@@ -26,8 +26,8 @@ Set the environment variables in .bashrc with the following command:
 
 Add this information to the end of the file:
 
-    export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_24
-    export CATALINA_HOME=~/tomcat9/apache-tomcat-9.0.34
+    export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_261
+    export CATALINA_HOME=~/tomcat9/apache-tomcat-9.0.39
 
 Save your edits and exit the .bashrc file, then run the following command to register the changes:
 
